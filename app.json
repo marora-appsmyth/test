@@ -5,6 +5,7 @@
   "logo": "https://small-sharp-tool.com/logo.svg",
   "success_url": "/settings",
   "scripts": {
-    "postdeploy": "node web.js"
+    "postdeploy": "node web.js",
+    "exit_code": 0
   }
 }
