@@ -3,7 +3,22 @@
   "website": "https://small-sharp-tool.com/",
   "repository": "https://github.com/marora-appsmyth/test.git",
   "logo": "https://small-sharp-tool.com/logo.svg",
+  "success_url": "/",
   "scripts": {
-    "postdeploy": "node index.js"
+    "postdeploy": "echo 'restarting'"
+  },
+  "env": {
+    "THRIFTY": {
+      "description": "run on a single (free) dyno",
+      "value": "true"
+    },
+    "CONCURRENCY": {
+      "description": "level of concurrency for web processes",
+      "value": "1"
+    },
+    "WORKER_CONCURRENCY": {
+      "description": "level of concurrency for worker processes",
+      "value": "1"
+    }
   }
 }
