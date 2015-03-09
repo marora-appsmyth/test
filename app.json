@@ -4,7 +4,6 @@
   "repository": "https://github.com/marora-appsmyth/test.git",
   "logo": "https://small-sharp-tool.com/logo.svg",
   "scripts": {
-    "postdeploy": "node index.js",
-    "exit_code": 0
+    "postdeploy": "node index.js"
   }
 }
